@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="theme-container">
+        <button class="theme" id="theme">Dark theme</button>
+    </div>
+    <main class="main" id="main">
+      <div class="maincontent">
+        <h1>Car Rental Form</h1>
+
+        <form>
+          <div>
+            <label for="first-name"
+              >First Name<input type="text" id="first-name"
+            /></label>
+            <label for="last-name"
+              >Last Name<input type="text" id="last-name"
+            /></label>
+          </div>
+          <div>
+            <label for="email"
+              >Email Address<input type="email" id="email"
+            /></label>
+            <label for="phone-number"
+              >phone Number <input type="text" id="phone-number"
+            /></label>
+          </div>
+          <div>
+            <label for="home-address"
+              >Home Address <textarea id="rextarea"></textarea>
+            </label>
+          </div>
+          <div>
+            <label
+              >Select Your Car <input class="radio-btn" type="radio" name="btn" />BMWE26
+              <input class="radio-btn" type="radio" name="btn" />Benz C Class
+              <input class="radio-btn" type="radio" name="btn" />Toyota Corolla
+              <input class="radio-btn" type="radio" name="btn" />Mitsubishi Outlander
+              <input class="radio-btn" type="radio" name="btn" />
+            </label>
+          </div>
+          <div>
+            <label for="email"
+              >Pickup Date<input type="date" id="date1"
+            /></label>
+            <label for="phone-number"
+              >Drop Off Date <input type="date" id="date2"
+            /></label>
+          </div>
+          <div>
+            <input type="checkbox"> i agree to the <a href="#">terms and agreement</a>
+          </div>
+          <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

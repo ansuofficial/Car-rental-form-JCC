@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+    height: 100vh;
+    background: #ffffff;
+    color: #0f0f0f;
+    transition: .4s ease-in-out;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.theme-container {
+    position: absolute;
+    margin-left: 80%;
+}
+
+.theme {
+    cursor: pointer;
+}
+
+div {
+    margin: 2.5rem;
+}
+
+input, textarea {
+    border-radius: .75rem;
+}
+
+.radio-btn {
+    margin: 1rem;
+}
+
+#date1, #date2 {
+    margin: 1rem;
+}
